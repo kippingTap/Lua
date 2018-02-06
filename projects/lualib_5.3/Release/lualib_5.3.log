@@ -1,0 +1,108 @@
+﻿生成启动时间为 2018/2/6 14:04:53。
+     1>项目“D:\Visual Studio Projects\Lua\projects\lualib_5.3\lualib_5.3.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(364,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         D:\Application\VisualStudio2013\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D LUA_BUILD_AS_DLL /D LUA_LIB /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"D:\Visual Studio Projects\Lua\projects\lualib_5.3\\Release\\" /Fd"D:\Visual Studio Projects\Lua\projects\lualib_5.3\\Release\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt lapi.c lauxlib.c lbaselib.c lbitlib.c lcode.c lcorolib.c lctype.c ldblib.c ldebug.c ldo.c ldump.c lfunc.c lgc.c linit.c liolib.c llex.c lmathlib.c lmem.c loadlib.c lobject.c lopcodes.c loslib.c lparser.c lstate.c lstring.c lstrlib.c ltable.c ltablib.c ltm.c lundump.c lutf8lib.c lvm.c lzio.c
+         lapi.c
+         lauxlib.c
+     1>lauxlib.c(8): warning C4005: “LUA_LIB”: 宏重定义
+                 命令行参数: 参见前面的“LUA_LIB”定义
+         lbaselib.c
+     1>lbaselib.c(8): warning C4005: “LUA_LIB”: 宏重定义
+                 命令行参数: 参见前面的“LUA_LIB”定义
+         lbitlib.c
+     1>lbitlib.c(8): warning C4005: “LUA_LIB”: 宏重定义
+                 命令行参数: 参见前面的“LUA_LIB”定义
+         lcode.c
+         lcorolib.c
+     1>lcorolib.c(8): warning C4005: “LUA_LIB”: 宏重定义
+                 命令行参数: 参见前面的“LUA_LIB”定义
+         lctype.c
+         ldblib.c
+     1>ldblib.c(8): warning C4005: “LUA_LIB”: 宏重定义
+                 命令行参数: 参见前面的“LUA_LIB”定义
+         ldebug.c
+         ldo.c
+         ldump.c
+         lfunc.c
+         lgc.c
+         linit.c
+     1>linit.c(9): warning C4005: “LUA_LIB”: 宏重定义
+                 命令行参数: 参见前面的“LUA_LIB”定义
+         liolib.c
+     1>liolib.c(8): warning C4005: “LUA_LIB”: 宏重定义
+                 命令行参数: 参见前面的“LUA_LIB”定义
+         llex.c
+         lmathlib.c
+     1>lmathlib.c(8): warning C4005: “LUA_LIB”: 宏重定义
+                 命令行参数: 参见前面的“LUA_LIB”定义
+         lmem.c
+         loadlib.c
+     1>loadlib.c(12): warning C4005: “LUA_LIB”: 宏重定义
+                 命令行参数: 参见前面的“LUA_LIB”定义
+         lobject.c
+         正在编译...
+         lopcodes.c
+         loslib.c
+     1>loslib.c(8): warning C4005: “LUA_LIB”: 宏重定义
+                 命令行参数: 参见前面的“LUA_LIB”定义
+         lparser.c
+         lstate.c
+         lstring.c
+         lstrlib.c
+     1>lstrlib.c(8): warning C4005: “LUA_LIB”: 宏重定义
+                 命令行参数: 参见前面的“LUA_LIB”定义
+         ltable.c
+         ltablib.c
+     1>ltablib.c(8): warning C4005: “LUA_LIB”: 宏重定义
+                 命令行参数: 参见前面的“LUA_LIB”定义
+         ltm.c
+         lundump.c
+         lutf8lib.c
+     1>lutf8lib.c(8): warning C4005: “LUA_LIB”: 宏重定义
+                 命令行参数: 参见前面的“LUA_LIB”定义
+         lvm.c
+         lzio.c
+       Link:
+         D:\Application\VisualStudio2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Visual Studio Projects\Lua\\bin\lualib_r.dll" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Visual Studio Projects\Lua\\bin\lualib_r.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Visual Studio Projects\Lua\\bin\lualib_r.lib" /MACHINE:X86 /SAFESEH /DLL "D:\Visual Studio Projects\Lua\projects\lualib_5.3\\Release\lapi.obj"
+         "D:\Visual Studio Projects\Lua\projects\lualib_5.3\\Release\lauxlib.obj"
+         "D:\Visual Studio Projects\Lua\projects\lualib_5.3\\Release\lbaselib.obj"
+         "D:\Visual Studio Projects\Lua\projects\lualib_5.3\\Release\lbitlib.obj"
+         "D:\Visual Studio Projects\Lua\projects\lualib_5.3\\Release\lcode.obj"
+         "D:\Visual Studio Projects\Lua\projects\lualib_5.3\\Release\lcorolib.obj"
+         "D:\Visual Studio Projects\Lua\projects\lualib_5.3\\Release\lctype.obj"
+         "D:\Visual Studio Projects\Lua\projects\lualib_5.3\\Release\ldblib.obj"
+         "D:\Visual Studio Projects\Lua\projects\lualib_5.3\\Release\ldebug.obj"
+         "D:\Visual Studio Projects\Lua\projects\lualib_5.3\\Release\ldo.obj"
+         "D:\Visual Studio Projects\Lua\projects\lualib_5.3\\Release\ldump.obj"
+         "D:\Visual Studio Projects\Lua\projects\lualib_5.3\\Release\lfunc.obj"
+         "D:\Visual Studio Projects\Lua\projects\lualib_5.3\\Release\lgc.obj"
+         "D:\Visual Studio Projects\Lua\projects\lualib_5.3\\Release\linit.obj"
+         "D:\Visual Studio Projects\Lua\projects\lualib_5.3\\Release\liolib.obj"
+         "D:\Visual Studio Projects\Lua\projects\lualib_5.3\\Release\llex.obj"
+         "D:\Visual Studio Projects\Lua\projects\lualib_5.3\\Release\lmathlib.obj"
+         "D:\Visual Studio Projects\Lua\projects\lualib_5.3\\Release\lmem.obj"
+         "D:\Visual Studio Projects\Lua\projects\lualib_5.3\\Release\loadlib.obj"
+         "D:\Visual Studio Projects\Lua\projects\lualib_5.3\\Release\lobject.obj"
+         "D:\Visual Studio Projects\Lua\projects\lualib_5.3\\Release\lopcodes.obj"
+         "D:\Visual Studio Projects\Lua\projects\lualib_5.3\\Release\loslib.obj"
+         "D:\Visual Studio Projects\Lua\projects\lualib_5.3\\Release\lparser.obj"
+         "D:\Visual Studio Projects\Lua\projects\lualib_5.3\\Release\lstate.obj"
+         "D:\Visual Studio Projects\Lua\projects\lualib_5.3\\Release\lstring.obj"
+         "D:\Visual Studio Projects\Lua\projects\lualib_5.3\\Release\lstrlib.obj"
+         "D:\Visual Studio Projects\Lua\projects\lualib_5.3\\Release\ltable.obj"
+         "D:\Visual Studio Projects\Lua\projects\lualib_5.3\\Release\ltablib.obj"
+         "D:\Visual Studio Projects\Lua\projects\lualib_5.3\\Release\ltm.obj"
+         "D:\Visual Studio Projects\Lua\projects\lualib_5.3\\Release\lundump.obj"
+         "D:\Visual Studio Projects\Lua\projects\lualib_5.3\\Release\lutf8lib.obj"
+         "D:\Visual Studio Projects\Lua\projects\lualib_5.3\\Release\lvm.obj"
+         "D:\Visual Studio Projects\Lua\projects\lualib_5.3\\Release\lzio.obj"
+            正在创建库 D:\Visual Studio Projects\Lua\\bin\lualib_r.lib 和对象 D:\Visual Studio Projects\Lua\\bin\lualib_r.exp
+         正在生成代码
+         已完成代码的生成
+         lualib_5.3.vcxproj -> D:\Visual Studio Projects\Lua\\bin\lualib_r.dll
+     1>已完成生成项目“D:\Visual Studio Projects\Lua\projects\lualib_5.3\lualib_5.3.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.28
