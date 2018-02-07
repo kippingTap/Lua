@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01_InitLua", "projects\01_I
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02_c_call_lua", "projects\02_c_call_lua\02_c_call_lua.vcxproj", "{E7B2FFAC-7225-4E25-BCEA-3DAD0970E13C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03_lua_call_c", "projects\03_lua_call_c\03_lua_call_c.vcxproj", "{357EF590-CD4F-4C3B-AEC7-6FFB8A5BFCF7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -27,6 +29,10 @@ Global
 		{E7B2FFAC-7225-4E25-BCEA-3DAD0970E13C}.Debug|Win32.Build.0 = Debug|Win32
 		{E7B2FFAC-7225-4E25-BCEA-3DAD0970E13C}.Release|Win32.ActiveCfg = Release|Win32
 		{E7B2FFAC-7225-4E25-BCEA-3DAD0970E13C}.Release|Win32.Build.0 = Release|Win32
+		{357EF590-CD4F-4C3B-AEC7-6FFB8A5BFCF7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{357EF590-CD4F-4C3B-AEC7-6FFB8A5BFCF7}.Debug|Win32.Build.0 = Debug|Win32
+		{357EF590-CD4F-4C3B-AEC7-6FFB8A5BFCF7}.Release|Win32.ActiveCfg = Release|Win32
+		{357EF590-CD4F-4C3B-AEC7-6FFB8A5BFCF7}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
