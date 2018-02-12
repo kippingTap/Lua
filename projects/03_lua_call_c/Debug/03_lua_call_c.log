@@ -1,14 +1,16 @@
-﻿生成启动时间为 2018/2/7 17:19:46。
+﻿生成启动时间为 2018/2/8 16:35:48。
      1>项目“D:\Visual Studio Projects\Lua\projects\03_lua_call_c\03_lua_call_c.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
-         D:\Application\VisualStudio2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"D:\Visual Studio Projects\Lua\projects\03_lua_call_c\\Debug\\" /Fd"D:\Visual Studio Projects\Lua\projects\03_lua_call_c\\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt luacallc_main.cpp
-         luacallc_main.cpp
+         D:\Application\VisualStudio2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"D:\Visual Studio Projects\Lua\projects\03_lua_call_c\\Debug\\" /Fd"D:\Visual Studio Projects\Lua\projects\03_lua_call_c\\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt account.cpp
+         account.cpp
        Link:
-         D:\Application\VisualStudio2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Visual Studio Projects\Lua\\bin\03_lua_call_c.exe" /INCREMENTAL /NOLOGO lualib_d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Visual Studio Projects\Lua\\bin\03_lua_call_c.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Visual Studio Projects\Lua\\bin\03_lua_call_c.lib" /MACHINE:X86 "D:\Visual Studio Projects\Lua\projects\03_lua_call_c\\Debug\luacallc_main.obj"
+         D:\Application\VisualStudio2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Visual Studio Projects\Lua\\bin\03_lua_call_c.exe" /INCREMENTAL /NOLOGO lualib_d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Visual Studio Projects\Lua\\bin\03_lua_call_c.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Visual Studio Projects\Lua\\bin\03_lua_call_c.lib" /MACHINE:X86 "D:\Visual Studio Projects\Lua\projects\03_lua_call_c\\Debug\account.obj"
+         "D:\Visual Studio Projects\Lua\projects\03_lua_call_c\\Debug\accountBinding.obj"
+         "D:\Visual Studio Projects\Lua\projects\03_lua_call_c\\Debug\luacallc_main.obj"
          "D:\Visual Studio Projects\Lua\projects\03_lua_call_c\\Debug\myMath.obj"
          03_lua_call_c.vcxproj -> D:\Visual Studio Projects\Lua\\bin\03_lua_call_c.exe
      1>已完成生成项目“D:\Visual Studio Projects\Lua\projects\03_lua_call_c\03_lua_call_c.vcxproj”(Build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:00.51
+已用时间 00:00:00.50

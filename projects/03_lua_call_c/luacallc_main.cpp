@@ -1,6 +1,7 @@
 #include<iostream>
 #include<src\lua.hpp>
 #include"myMath.h"
+#include"accountBinding.h"
 
 
 
@@ -13,6 +14,7 @@ int main()
 	lua_State* L = luaL_newstate();
 	luaL_openlibs(L);
 	lua_openmyMathLibs(L);
+	lua_openAccout(L);
 
 	if (L == nullptr)
 	{

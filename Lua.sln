@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02_c_call_lua", "projects\0
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03_lua_call_c", "projects\03_lua_call_c\03_lua_call_c.vcxproj", "{357EF590-CD4F-4C3B-AEC7-6FFB8A5BFCF7}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04_object_oriented_access", "projects\04_object_oriented_access\04_object_oriented_access.vcxproj", "{26146D29-7A4C-42A8-9363-C86E05DEE344}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -33,6 +35,10 @@ Global
 		{357EF590-CD4F-4C3B-AEC7-6FFB8A5BFCF7}.Debug|Win32.Build.0 = Debug|Win32
 		{357EF590-CD4F-4C3B-AEC7-6FFB8A5BFCF7}.Release|Win32.ActiveCfg = Release|Win32
 		{357EF590-CD4F-4C3B-AEC7-6FFB8A5BFCF7}.Release|Win32.Build.0 = Release|Win32
+		{26146D29-7A4C-42A8-9363-C86E05DEE344}.Debug|Win32.ActiveCfg = Debug|Win32
+		{26146D29-7A4C-42A8-9363-C86E05DEE344}.Debug|Win32.Build.0 = Debug|Win32
+		{26146D29-7A4C-42A8-9363-C86E05DEE344}.Release|Win32.ActiveCfg = Release|Win32
+		{26146D29-7A4C-42A8-9363-C86E05DEE344}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

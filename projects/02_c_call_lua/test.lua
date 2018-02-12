@@ -92,4 +92,4 @@ print_table("my table info", t, true);
 
 print_table("string lib info", string, true);
 
-print_table("package", package.searchers, true);
+print_table("package.searchers", package.searchers, true);

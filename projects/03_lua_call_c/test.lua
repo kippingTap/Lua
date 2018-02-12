@@ -76,4 +76,14 @@ local y = mylib.div(3,0)
 print("3/0 = ", y)
 
 
-print_table("my math libs", mylib)
+--print_table("my math libs", mylib)
+
+local acc = Account.new();
+Account.withdrawal(acc, 100);
+Account.deposit(acc,1000);
+print("fund : ", Account.getFund(acc));
+Account.withdrawal(acc,50);
+print("fund : ", Account.getFund(acc));
+Account.delect(acc);
+print("fund : ", Account.getFund(acc));
+
